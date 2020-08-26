@@ -18,6 +18,6 @@ class String
   end
 
   def count_sentences
-    self.split(/[.?!]/).map{|x| !(x.match(/\w+))}
+    self.split(/[.?!]/).map{|x| !(x.match(/\w+/))}
   end
 end
